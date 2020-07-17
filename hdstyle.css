@@ -1,0 +1,368 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    position: relative;
+}
+
+@media only screen and (max-width:600px){
+    .container{
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        position: relative;
+    }
+
+    .third-section > img{
+        width: 100%;
+        height: 150px;
+    }
+
+   }
+.first-header{
+    width: 100%;
+    height: 100px;
+}
+.first-header > img{
+    width: 100%;
+    height: 100px;
+}
+.second-header{
+    width: 100%;
+    position: relative;
+ 
+    
+}
+.second-header > .ancordiv > a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 13px;
+    position: relative;
+    top: 6px;
+    font-family: sans-serif;
+    background-image: url("images/collagemenu.gif");
+    background-repeat: no-repeat;
+
+}
+
+#toggalmenu > img {
+    display: none;
+   
+   }
+
+#update{
+    display: none;
+}
+
+@media only screen and (max-width:600px){
+
+    .second-header > .ancordiv > a{
+        text-decoration: none;
+        color: white;
+         display: block;
+        font-family: sans-serif;
+    padding: 10px 0px;
+     border-bottom: 1px solid white;
+     background-image: none;
+    
+ }
+
+
+
+  .second-header > .ancordiv {
+      position: absolute;
+      top: 50px;
+  }
+    
+
+
+#update{
+    display:block;
+    width: 80%;
+    padding-top: 20px;
+    height: 50px;
+
+}
+#update > h4{
+    color: brown;
+}
+
+
+    .second-header{
+        width: 100%;
+        height: 60px;
+        background-image: none;
+        
+    }
+
+
+#toggalmenu > img {
+   display: block;
+   width: 50px;
+  height: 50px; 
+  margin: 5px; 
+  position: absolute;
+  right: 0px;
+  top: 0px;
+
+   }
+
+ 
+    .second-header > .ancordiv{
+        width: 100%;
+        height: 100vh;
+        position: absolute;
+        top: 50px;
+     background-color: rgba(0,0,0,0.6);
+        display: none;
+        text-align: center;      
+        
+    }
+
+ 
+
+}
+
+.third-section{
+    width: 100%;
+    height: 250px;
+}
+.third-section > img{
+    width: 100%;
+    height: 250px;
+}
+
+
+
+.content-container{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 50px;  
+}
+
+
+
+
+.content-container-left{
+    width: 20%;
+    height: 100%; 
+    float: left;
+    overflow: visible;
+
+}
+
+.content-container-left > h5{
+    padding: 30px;
+}
+.content-container-left{
+    width: 20%;
+    height: 100%;
+  
+    float: left;
+    overflow: visible;
+
+}
+.content-container-left > p{
+    width: 100%;
+  
+    overflow: visible;
+}
+
+
+.content-container-center{
+    width: 60%;
+    height: 100%;
+    float: left;
+    padding: 5px;
+}
+.about-collage{
+    width: 100%;
+    height: 300px;
+    padding: 5px;
+}
+.about-collage > img{
+  float: left;
+  margin: 10px;
+}
+.about-collage > p{
+   word-spacing: 0.5rem;
+   font-size: 13px;
+}
+
+.about-collage > p > #remaintext{
+    display: none;
+}
+#dot{
+    color: blue;
+}
+.about-collage > p > #readmorebtn{
+    border: none;
+    padding: 5px;
+    color: blue;
+}
+
+.about-principal{
+    width: 100%;
+    height: 300px;
+    margin: 20px 0px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    padding-bottom: 50px;
+
+}
+
+.about-principal > p{
+    word-spacing: 0.5rem;
+    font-size: 13px;
+    
+}
+
+.about-principal > img{
+  float: left;
+  margin: 10px;
+
+}
+.content-container-right{
+    width: 20%;
+    height: 100%;
+    float: left;
+   
+    padding: 5px;
+    padding-top: 30px;
+    
+}
+
+.content-container-right > ul > li {
+    list-style: none;
+    margin-top: 10px;
+}
+.content-container-right > ul > li  > a{
+    text-decoration: none;
+    padding: 2px 5px;
+    border-bottom: 2px dotted black;
+    font-size: 12px;
+}
+.content-container-right > ul > li  > a:hover {
+    background-color: rgba(0,0,0,0.7);
+    color: white;
+}
+
+
+
+
+
+
+/*fotter container*/
+
+.none{
+    float: none;
+    clear: both;
+}
+
+.footer-container{
+   width: 100%;
+    height: 80px;
+    background-image: url("images/collagefooter.jpg");
+background-repeat:repeat-x;
+position: absolute;
+bottom: 0px;
+margin-top: 50px;
+
+
+}
+
+.footer-menu{
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+.footer-container > .footer-menu > a{
+    text-decoration: none;
+    padding: 2px;
+    font-size: 12px;
+     font-weight: bold;
+    color: aqua;
+}
+.footer-container  > .last{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 11px;
+}
+.veera{
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  font-size: 11px;
+  color: rgb(253, 208, 7);
+}
+
+
+
+
+@media only screen and (max-width:600px){
+
+
+    .content-container-left{
+        width: 100%;
+        height: 100%; 
+        float: none;
+        overflow: visible;
+      
+    
+    }
+
+    .content-container-center{
+        width: 100%;
+        height: 100%;
+        float: none;
+        padding: 5px;
+      
+        
+    }
+
+
+    .content-container-right{
+        width: 100%;
+        height: 100%;
+        float: none;
+        padding: 5px;
+        padding-top: 30px;
+    
+        
+    }
+
+
+
+
+.content-container{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 50px;  
+    display: flex-box;
+    flex-direction: row;
+     
+    }
+
+
+    .about-principal{
+        width: 100%;
+        height: 300px;
+        margin: 20px 0px;
+        overflow: hidden;
+        margin-bottom: 30px;
+        padding-bottom: 50px;
+        padding: 20px;
+        margin: 20px;
+    
+    }
+
+
+
+
+
+}
